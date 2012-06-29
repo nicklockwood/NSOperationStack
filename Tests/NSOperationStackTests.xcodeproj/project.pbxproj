@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B246DC3D159DA88A00EC1023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B246DC3C159DA88A00EC1023 /* Foundation.framework */; };
+		B246DC40159DA88A00EC1023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B246DC3F159DA88A00EC1023 /* main.m */; };
+		B246DC44159DA88A00EC1023 /* NSOperationStackTests.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B246DC43159DA88A00EC1023 /* NSOperationStackTests.1 */; };
+		B2A28AEE159DA8ED0026E798 /* NSOperationStack.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A28AED159DA8ED0026E798 /* NSOperationStack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B246DC36159DA88900EC1023 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B246DC44159DA88A00EC1023 /* NSOperationStackTests.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B246DC38159DA88900EC1023 /* NSOperationStackTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSOperationStackTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		B246DC3C159DA88A00EC1023 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B246DC3F159DA88A00EC1023 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B246DC42159DA88A00EC1023 /* NSOperationStackTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSOperationStackTests-Prefix.pch"; sourceTree = "<group>"; };
+		B246DC43159DA88A00EC1023 /* NSOperationStackTests.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSOperationStackTests.1; sourceTree = "<group>"; };
+		B2A28AEC159DA8ED0026E798 /* NSOperationStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationStack.h; sourceTree = "<group>"; };
+		B2A28AED159DA8ED0026E798 /* NSOperationStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationStack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B246DC35159DA88900EC1023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B246DC3D159DA88A00EC1023 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B246DC2D159DA88900EC1023 = {
+			isa = PBXGroup;
+			children = (
+				B2A28AEB159DA8ED0026E798 /* NSOperationStack */,
+				B246DC3E159DA88A00EC1023 /* NSOperationStackTests */,
+				B246DC3B159DA88900EC1023 /* Frameworks */,
+				B246DC39159DA88900EC1023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B246DC39159DA88900EC1023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B246DC38159DA88900EC1023 /* NSOperationStackTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B246DC3B159DA88900EC1023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B246DC3C159DA88A00EC1023 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B246DC3E159DA88A00EC1023 /* NSOperationStackTests */ = {
+			isa = PBXGroup;
+			children = (
+				B246DC3F159DA88A00EC1023 /* main.m */,
+				B246DC43159DA88A00EC1023 /* NSOperationStackTests.1 */,
+				B246DC41159DA88A00EC1023 /* Supporting Files */,
+			);
+			path = NSOperationStackTests;
+			sourceTree = "<group>";
+		};
+		B246DC41159DA88A00EC1023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B246DC42159DA88A00EC1023 /* NSOperationStackTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2A28AEB159DA8ED0026E798 /* NSOperationStack */ = {
+			isa = PBXGroup;
+			children = (
+				B2A28AEC159DA8ED0026E798 /* NSOperationStack.h */,
+				B2A28AED159DA8ED0026E798 /* NSOperationStack.m */,
+			);
+			name = NSOperationStack;
+			path = ../NSOperationStack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B246DC37159DA88900EC1023 /* NSOperationStackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B246DC47159DA88A00EC1023 /* Build configuration list for PBXNativeTarget "NSOperationStackTests" */;
+			buildPhases = (
+				B246DC34159DA88900EC1023 /* Sources */,
+				B246DC35159DA88900EC1023 /* Frameworks */,
+				B246DC36159DA88900EC1023 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSOperationStackTests;
+			productName = NSOperationStackTests;
+			productReference = B246DC38159DA88900EC1023 /* NSOperationStackTests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B246DC2F159DA88900EC1023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B246DC32159DA88900EC1023 /* Build configuration list for PBXProject "NSOperationStackTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B246DC2D159DA88900EC1023;
+			productRefGroup = B246DC39159DA88900EC1023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B246DC37159DA88900EC1023 /* NSOperationStackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B246DC34159DA88900EC1023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B246DC40159DA88A00EC1023 /* main.m in Sources */,
+				B2A28AEE159DA8ED0026E798 /* NSOperationStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B246DC45159DA88A00EC1023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B246DC46159DA88A00EC1023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B246DC48159DA88A00EC1023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSOperationStackTests/NSOperationStackTests-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B246DC49159DA88A00EC1023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSOperationStackTests/NSOperationStackTests-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B246DC32159DA88900EC1023 /* Build configuration list for PBXProject "NSOperationStackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B246DC45159DA88A00EC1023 /* Debug */,
+				B246DC46159DA88A00EC1023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B246DC47159DA88A00EC1023 /* Build configuration list for PBXNativeTarget "NSOperationStackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B246DC48159DA88A00EC1023 /* Debug */,
+				B246DC49159DA88A00EC1023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B246DC2F159DA88900EC1023 /* Project object */;
+}
