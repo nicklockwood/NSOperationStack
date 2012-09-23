@@ -18,7 +18,7 @@ NSOperationStack adds LIFO behaviour to NSOperationQueue. It provides two simple
 Supported iOS & SDK Versions
 -----------------------------
 
-* Supported build target - iOS 5.1 / Mac OS 10.7 (Xcode 4.3, Apple LLVM compiler 3.1)
+* Supported build target - iOS 6.0 / Mac OS 10.8 (Xcode 4.5, Apple LLVM compiler 4.1)
 * Earliest supported deployment target - iOS 4.3 / Mac OS 10.7
 * Earliest compatible deployment target - iOS 4.0 / Mac OS 10.6
 

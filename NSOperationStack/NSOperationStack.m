@@ -44,7 +44,8 @@
         [self setSuspended:YES];
         
         //make op a dependency of all queued ops
-        NSInteger index = [self operationCount] - [self maxConcurrentOperationCount];
+        NSInteger maxOperations = ([self maxConcurrentOperationCount] > 0) ? [self maxConcurrentOperationCount]: INT_MAX;
+        NSInteger index = [self operationCount] - maxOperations;
         if (index >= 0)
         {
             NSOperation *operation = [[self operations] objectAtIndex:index];
