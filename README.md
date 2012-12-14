@@ -11,8 +11,8 @@ A LIFO queue (aka "stack") solves this problem. Each image would be added at the
 
 NSOperationStack adds LIFO behaviour to NSOperationQueue. It provides two simple implementations:
 
-1) A category that extends NSOperationQueue with methods to add tasks at the front of the queue instead of the back
-2) An NSOperationQueue subclass that makes LIFO queuing the default behaviour
+1. A category that extends NSOperationQueue with methods to add tasks at the front of the queue instead of the back
+2. An NSOperationQueue subclass that makes LIFO queuing the default behaviour
 
 
 Supported iOS & SDK Versions

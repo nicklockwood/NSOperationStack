@@ -1,7 +1,7 @@
 //
 //  NSOperationStack.m
 //
-//  Version 1.0
+//  Version 1.0.2
 //
 //  Created by Nick Lockwood on 28/06/2012.
 //  Copyright (c) 2012 Charcoal Design
@@ -45,11 +45,11 @@
         
         //make op a dependency of all queued ops
         NSInteger maxOperations = ([self maxConcurrentOperationCount] > 0) ? [self maxConcurrentOperationCount]: INT_MAX;
-        NSArray* queuedOps = self.operations;
-        NSInteger index = queuedOps.count- maxOperations;
+        NSArray *operations = [self operations];
+        NSInteger index = [operations count] - maxOperations;
         if (index >= 0)
         {
-            NSOperation *operation = [queuedOps objectAtIndex:index];
+            NSOperation *operation = operations[index];
             if (![operation isExecuting])
             {
                 [operation addDependency:op];
