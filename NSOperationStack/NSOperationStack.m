@@ -45,10 +45,11 @@
         
         //make op a dependency of all queued ops
         NSInteger maxOperations = ([self maxConcurrentOperationCount] > 0) ? [self maxConcurrentOperationCount]: INT_MAX;
-        NSInteger index = [self operationCount] - maxOperations;
+        NSArray* queuedOps = self.operations;
+        NSInteger index = queuedOps.count- maxOperations;
         if (index >= 0)
         {
-            NSOperation *operation = [[self operations] objectAtIndex:index];
+            NSOperation *operation = [queuedOps objectAtIndex:index];
             if (![operation isExecuting])
             {
                 [operation addDependency:op];
